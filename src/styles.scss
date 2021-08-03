@@ -1,0 +1,26 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  width: 160px;
+  height: 42px;
+  left: 1070px;
+  top: 159px;
+  background: rgba(84, 99, 206, 0.2);
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 21px solid transparent;
+  border-bottom: 21px solid transparent;
+  border-left: 21px solid white;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+  color: #5463ce;
+}
